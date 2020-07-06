@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lib</name>
+    </assembly>
+    <members>
+        <member name="T:ds.test.impl.IPlugin">
+            <summary>
+            Plugin API
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.PluginName">
+            <summary>
+            Gets plugin name
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Version">
+            <summary>
+            Gets version dll
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Image">
+            <summary>
+            Gets plugin image
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Description">
+            <summary>
+            Gets plugin description
+            </summary>
+        </member>
+        <member name="M:ds.test.impl.IPlugin.Run(System.Int32,System.Int32)">
+            <summary>
+            Plugin operation
+            </summary>
+            <param name="input1">First parameter</param>
+            <param name="input2">Second parameter</param>
+            <returns>Result of operation</returns>
+        </member>
+        <member name="P:ds.test.impl.PluginFactory.Item(System.String)">
+            <summary>
+            Indexer to search by name
+            </summary>
+            <param name="name">Plugin name</param>
+            <returns>Instance of plugin</returns>
+            <exception cref="T:System.InvalidOperationException">Thrown when plugin is missing</exception>
+        </member>
+        <member name="M:ds.test.impl.PluginFactory.CreatePlugins">
+            <summary>
+            Creates plugins
+            </summary>
+            <returns>Array of plugins</returns>
+            <exception cref="T:System.InvalidOperationException">Thrown when resource is missing</exception>
+        </member>
+        <member name="T:ds.test.impl.Plugins">
+            <summary>
+            Plugins API
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Plugins.PluginItems">
+            <summary>
+            Represents all plugins
+            </summary>
+        </member>
+        <member name="M:ds.test.impl.Plugins.GetPluginsCount">
+            <summary>
+            Gets total number of plugins
+            </summary>
+            <returns>Plugins count</returns>
+        </member>
+        <member name="M:ds.test.impl.Plugins.GetPluginsNames">
+            <summary>
+            Gets plugins names
+            </summary>
+            <returns>Array of plugins names</returns>
+        </member>
+        <member name="M:ds.test.impl.Plugins.GetPlugin(System.String)">
+            <summary>
+            Gets plugin by name
+            </summary>
+            <param name="pluginName">Plugin name</param>
+            <returns>Instance of plugin</returns>
+            <exception cref="T:System.InvalidOperationException">Thrown when plugin is missing</exception>
+        </member>
+        <member name="T:ds.test.impl.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Addition">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Division">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Multiplication">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Pow">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Resource.Subtraction">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+    </members>
+</doc>
